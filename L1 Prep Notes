@@ -1,0 +1,212 @@
+
+CORE JAVA 35 Questions
+
+JSP 10
+Servelet 10
+Development Tool
+
+	- Module 1 - 15 Questions
+		- Oracle 6-7
+			
+			1. Question From Chapter 1
+				- Skip First 10 Pages, Page 11 is important
+					- Learn the database models 
+						- Relational Model is most important
+					- Data Integrity / Constraints
+					- Cascading
+						- On DELETE CASCADE
+						- ON DELETE SET NULL
+			
+			2. 	Chapter 2
+				- Types DQL, DML, TCL, DDL Queries 
+			
+			3.  ORDER BY AND WHERE CLAUSE AND LOGICAL OPERATORS
+			
+					- Order By 
+						- Ascending where would null values will come?
+						- Same For Descending, where would they come?					
+						- Order By 0
+						- Page 21 VERY IMPORTANT STUFF
+						- by default?
+							 
+					- WHERE CLAUSE
+						- all logics
+							 
+					- LOGICAL OPERATORS
+						- AND also OR ?? will both work?
+						- WHICH CONDITION WILL WORK? If 3 conditions are given?
+						- Page 15 Date VS VARCHAR comparision?
+						- Convert Date To Varchar and vice-versa
+							 
+					- LIKE OPERATORS
+						- Page 10
+					
+				- DISTINCT KEYWORD, NULL IS DISPLAYED 
+					- If a record has 2 nulls, which will get displayed?
+					
+				- ALIAS Name For Column name, " " these are not mandatory, AS is also optional	
+				
+			4. GROUP FUNCTIONS
+				
+				- HAVE Keyword
+				- Single Row Functions
+					- character based fucntions
+					- date based functions
+					
+				- Multiple Row Functions
+				- Syntax Order on page 6 Important
+				- COUNT Keyword
+				- NVL / NVL2 Keywords (Lesson 5 Page 21)
+                - Operating With Null Values
+				- GROUP BY Criteria 
+                    - Page 12 Second Point is important
+                    - HAVING Clause VS WHERE Clause
+                    - HAVING HAS TO BE USED AFTER GROUP BY
+                    - Go through the GUIDELINES Page 15 (Important)
+                
+            5. LESSON 5
+                
+                - NUMBER FUNCTIONS
+                    - CEIL
+                    - ABS
+                    - TRUNCATE (!) 
+                        - TRUNCATE(23.678, -2)
+                        - TRUNCATE(87 or 83, -2)
+                        
+                    - ROUND (!)
+                    
+                - CHARACTER FUNCTIONS
+                    - NESTED FUNCTIONS
+                    - RPAD
+                    - LPAD
+                    
+                - Date Functions
+                    - To calculate difference between dates
+                    
+                - Conversion Functions { Page 18 }
+                    - ToChar
+                    - ToDate
+                    - ToNumber
+                    - Date Formatting
+                    - Dont worry about Time Stamp
+                    
+                - CASE AND DECODE Functions
+                    - DECODE is exisiting from Beginning of Orcale
+                    
+            6. JOINS AND SUBQUERIES
+                    - More Important Questions
+                
+            7. Same
+            
+            8. Database Object
+            
+                - VIEW ?
+                    - COMPLEX AND BASIC VIEWS ?
+                    - Does it affect the original Table ?
+                    - FORCE VS NO FORCE Keyword ?
+                    - Rules and Guidelines On Page 43 45
+
+                - Corelated Subquery (Theoretical Question)
+                
+                - Queries USING IN ALL ANY
+                
+            9. {Lesson 8}
+            
+                - DML INSERTION OF DATA (Page 4)
+                - COPY DATA FROM DIFFERENT TABLE / Only some columns?
+                - DATE CHARACTER 'uses these'
+                
+                    
+	Module 2 - 15 Questions
+		JPA 4-5
+		WEB SERVICES 3-4
+		JSP 4-5
+		
+        
+        - 6 to 8 Questions 
+            Java 
+                - loops
+                - switch case
+                
+                - Class loader
+                - Byte Code Verifier
+                - String functions
+                - Method of strings
+                - Scanner class
+                - '.' VS Scanner Class,  Valid IP Address question
+                - Usage of nextLine method
+                - Wrapper Classes (9 Wrapper Classes are there)
+                - Access Modifiers in Java
+                - Local Date (very important)
+                    - now() of() 
+                    - minus()
+                    - "XXX" to pass any date format
+                    - isLeapYear method()
+                    - Important Stuff below
+                    
+                - Inheritence
+                - Base Class & Sub Class
+                - Overriding And Overloading
+                - Order of calling of Constructors
+                - Argumented Constructors and Default Constructors
+                - super() keywords cannot be in second line
+                
+                - static blocks
+                    - executes before main method / when class is Loaded
+                - overriding main method
+                - METHOD HIDING in Java
+                - Overriding in runtime, Hiding is Compile Time
+                - difference between super and super()
+                
+                - Interface VS Abstract Classes
+                - Inherting an abstract class? 
+                    - Abstract Class can have abstract and non abstract methods
+                    - Abstract Parent class methods must be over-riden by child abstract class
+                    - static and abstract cannot be used together
+                
+                - Java 7 doesn't support default / static methods
+                
+                - REGEX Code based 1 quesiton will be there
+                - Matcher Matches Pattern
+                
+                
+                - EXCEPTIONS (Minimum 3 Questions)
+                    - base class
+                    - checked / unchecked exceptions
+                    - hierarchry
+                    - play with Exceptions
+                    
+                    
+                - Collection performance
+                
+                - MultiThreading - 3 Quesitons
+                - JDBC 4 Questions
+                
+                - Hashmap and Hashtable
+                - Vector and Arraylist
+                    
+                - Char sequeqnce interface
+                - String builder and String buffer
+                
+                - Hashmap, Comparable, Comparator
+                - Linked Hashmap, LinkedHashSet
+                
+                - Concurrent Collections
+                
+                - Serialization / Persistance of data (JPA Implmentation starts here)
+                    -outputstream and inputstream
+                    -bytestream
+                    
+                Low Priority:
+                
+                    - IO Package
+                    - Line Number Reader
+                    - Readers and Writers
+                    - Input Stream
+                    - Byte Stream VS Character Stream
+                    - Path Interface - Path.get() - Path string to path object (java 7) (nio package)    
+                    
+                Peer review
+                White box testing
+                black box testing
+                
